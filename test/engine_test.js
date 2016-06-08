@@ -32,7 +32,7 @@ describe('engine', () => {
 
   describe('when rendering a missing view', () => {
     it('should render the 404 view', (done) => {
-      request(app).get('/missing-view').expect(404, done);
+      request(app).get('/missing').expect(404).end(done);
     });
   });
 });
