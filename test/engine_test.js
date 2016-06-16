@@ -5,7 +5,7 @@ const path = require('path');
 
 const request = require('supertest');
 
-const app = require(path.join(__dirname, 'fixtures', 'app'));
+const app = require(path.join(__dirname, '..', 'examples', 'basic', 'app'));
 
 function read(filename) {
   return fs.readFileSync(filename, 'utf8');
