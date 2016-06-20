@@ -17,8 +17,8 @@ app.get('/', (request, response) => {
   response.render('index');
 });
 
-app.get('/meta', (request, response) => {
-  response.render('meta');
+app.get('/debug', (request, response) => {
+  response.render('debug');
 });
 
 module.exports = app;

@@ -15,17 +15,17 @@ describe('engine', () => {
   describe('when rendering a valid view', () => {
     describe('with metadata', () => {
       it('should render the view', (done) => {
-        const expected = read(path.join(__dirname, 'expected', 'meta.html'));
+        const expected = read(path.join(__dirname, 'expected', 'index.html'));
 
-        request(app).get('/meta').expect(200, expected).end(done);
+        request(app).get('/').expect(200, expected).end(done);
       });
     });
 
     describe('without metadata', () => {
       it('should render the view', (done) => {
-        const expected = read(path.join(__dirname, 'expected', 'index.html'));
+        const expected = read(path.join(__dirname, 'expected', 'debug.html'));
 
-        request(app).get('/').expect(200, expected).end(done);
+        request(app).get('/debug').expect(200, expected).end(done);
       });
     });
   });
