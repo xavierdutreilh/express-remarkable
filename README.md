@@ -1,4 +1,4 @@
-# express-remarkable [![Build Status](https://travis-ci.org/xavierdutreilh/express-remarkable.svg?branch=master)](https://travis-ci.org/xavierdutreilh/express-remarkable) [![Dependency Status](https://gemnasium.com/badges/github.com/xavierdutreilh/express-remarkable.svg)](https://gemnasium.com/github.com/xavierdutreilh/express-remarkable)
+# express-remarkable [![Build Status](https://travis-ci.org/xavierdutreilh/express-remarkable.svg?branch=master)](https://travis-ci.org/xavierdutreilh/express-remarkable) [![Coverage Status](https://coveralls.io/repos/github/xavierdutreilh/express-remarkable/badge.svg?branch=master)](https://coveralls.io/github/xavierdutreilh/express-remarkable?branch=master) [![Dependency Status](https://gemnasium.com/badges/github.com/xavierdutreilh/express-remarkable.svg)](https://gemnasium.com/github.com/xavierdutreilh/express-remarkable)
 
 > An [Express](https://github.com/expressjs/express) engine to render Markdown views
 
