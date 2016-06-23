@@ -20,8 +20,6 @@ node_js:
   - 6.0
   - 6.1
   - 6.2
-before_install:
-  - npm install -g npm@latest
 script:
   - npm run coverage
 after_success:
