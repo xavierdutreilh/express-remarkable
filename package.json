@@ -1,7 +1,7 @@
 {
   "name": "express-remarkable",
   "description": "An Express engine to render Markdown views",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/xavierdutreilh/express-remarkable",
   "author": {
     "name": "Xavier Dutreilh",
