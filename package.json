@@ -23,6 +23,7 @@
   "scripts": {
     "coverage": "istanbul cover _mocha -- -R spec",
     "coveralls": "cat coverage/lcov.info | coveralls",
+    "precoverage": "npm run pretest",
     "pretest": "eslint .",
     "test": "mocha"
   },
