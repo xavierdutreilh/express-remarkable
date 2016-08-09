@@ -21,7 +21,7 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "coverage": "istanbul cover _mocha -- -R spec",
+    "coverage": "istanbul cover _mocha",
     "coveralls": "cat coverage/lcov.info | coveralls",
     "precoverage": "npm run pretest",
     "pretest": "eslint .",
