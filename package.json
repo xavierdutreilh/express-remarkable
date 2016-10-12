@@ -21,10 +21,8 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "coverage": "istanbul cover _mocha",
-    "precoverage": "npm run pretest",
     "pretest": "eslint .",
-    "test": "mocha"
+    "test": "istanbul cover _mocha"
   },
   "dependencies": {
     "express": "^4.13.4",

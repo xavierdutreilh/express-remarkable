@@ -28,5 +28,3 @@ node_js:
   - 6.5
   - 6.6
   - 6.7
-script:
-  - npm run coverage
