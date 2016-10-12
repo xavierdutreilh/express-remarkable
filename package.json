@@ -22,7 +22,6 @@
   },
   "scripts": {
     "coverage": "istanbul cover _mocha",
-    "coveralls": "cat coverage/lcov.info | coveralls",
     "precoverage": "npm run pretest",
     "pretest": "eslint .",
     "test": "mocha"
@@ -33,7 +32,6 @@
     "remarkable-meta": "^1.0.1"
   },
   "devDependencies": {
-    "coveralls": "^2.11.9",
     "eslint": "^3.0.1",
     "eslint-config-google": "^0.6.0",
     "istanbul": "^0.4.3",

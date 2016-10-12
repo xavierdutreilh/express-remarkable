@@ -30,5 +30,3 @@ node_js:
   - 6.7
 script:
   - npm run coverage
-after_success:
-  - npm run coveralls
