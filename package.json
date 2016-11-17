@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "eslint": "^3.0.1",
-    "eslint-config-xavierdutreilh": "^0.1.0",
+    "eslint-config-xavierdutreilh": "^0.2.0",
     "istanbul": "^0.4.3",
     "mocha": "^3.0.0",
     "pug": "^2.0.0-beta2",
