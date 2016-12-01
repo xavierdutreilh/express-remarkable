@@ -1,7 +1,7 @@
 version: '2'
 services:
   test:
-    image: node:6
+    image: node:7
     volumes:
       - .:/app
     working_dir: /app
