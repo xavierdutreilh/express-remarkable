@@ -1,11 +1,10 @@
 'use strict';
 
 const fs = require('fs');
-const path = require('path');
 
 const request = require('supertest');
 
-const app = require(path.join(__dirname, '..', 'examples', 'basic', 'app'));
+const app = require('../examples/basic/app');
 
 function read(filename) {
   return fs.readFileSync(filename, 'utf8');
@@ -15,7 +14,7 @@ describe('engine', () => {
   describe('when rendering a valid view', () => {
     describe('with metadata', () => {
       it('should render the view', (done) => {
-        const expected = read(path.join(__dirname, 'expected', 'index.html'));
+        const expected = read(`${__dirname}/expected/index.html`);
 
         request(app).get('/').expect(200, expected).end(done);
       });
@@ -23,7 +22,7 @@ describe('engine', () => {
 
     describe('without metadata', () => {
       it('should render the view', (done) => {
-        const expected = read(path.join(__dirname, 'expected', 'debug.html'));
+        const expected = read(`${__dirname}/expected/debug.html`);
 
         request(app).get('/debug').expect(200, expected).end(done);
       });
