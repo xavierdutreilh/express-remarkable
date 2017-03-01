@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "lib/",
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">= 6.0.0"
   },
   "scripts": {
     "pretest": "standard",
