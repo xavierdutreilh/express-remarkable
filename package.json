@@ -21,7 +21,7 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "pretest": "eslint .",
+    "pretest": "standard",
     "test": "istanbul cover _mocha"
   },
   "dependencies": {
@@ -30,11 +30,10 @@
     "remarkable-meta": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.0.1",
-    "eslint-config-xavierdutreilh": "^0.2.0",
     "istanbul": "^0.4.3",
     "mocha": "^3.0.0",
     "pug": "^2.0.0-beta2",
+    "standard": "^9.0.0",
     "supertest": "^3.0.0"
   },
   "keywords": [

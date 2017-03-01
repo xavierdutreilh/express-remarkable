@@ -1,22 +1,20 @@
-'use strict';
+const express = require('express')
 
-const express = require('express');
+const remarkable = require('../../lib')
 
-const remarkable = require('../../lib');
+const app = express()
 
-const app = express();
+app.engine('md', remarkable(app))
 
-app.engine('md', remarkable(app));
-
-app.set('view engine', 'md');
-app.set('views', `${__dirname}/views`);
+app.set('view engine', 'md')
+app.set('views', `${__dirname}/views`)
 
 app.get('/', (request, response) => {
-  response.render('index');
-});
+  response.render('index')
+})
 
 app.get('/debug', (request, response) => {
-  response.render('debug');
-});
+  response.render('debug')
+})
 
-module.exports = app;
+module.exports = app
