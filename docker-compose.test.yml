@@ -1,8 +1,8 @@
 version: '3'
 services:
   test:
+    command: npm install-test
     image: node:8
     volumes:
       - .:/app
     working_dir: /app
-    command: npm install-test
