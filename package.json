@@ -26,11 +26,11 @@
   },
   "dependencies": {
     "express": "^4.16.2",
-    "remarkable": "^1.6.2",
+    "remarkable": "^1.7.1",
     "remarkable-meta": "^1.0.1"
   },
   "devDependencies": {
-    "istanbul": "^0.4.3",
+    "istanbul": "^0.4.5",
     "mocha": "^4.0.1",
     "pug": "^2.0.0-rc.4",
     "standard": "^10.0.3",
