@@ -25,15 +25,15 @@
     "test": "istanbul cover _mocha"
   },
   "dependencies": {
-    "express": "^4.13.4",
+    "express": "^4.16.2",
     "remarkable": "^1.6.2",
     "remarkable-meta": "^1.0.1"
   },
   "devDependencies": {
     "istanbul": "^0.4.3",
-    "mocha": "^3.0.0",
-    "pug": "^2.0.0-rc.2",
-    "standard": "^10.0.2",
+    "mocha": "^4.0.1",
+    "pug": "^2.0.0-rc.4",
+    "standard": "^10.0.3",
     "supertest": "^3.0.0"
   },
   "keywords": [
